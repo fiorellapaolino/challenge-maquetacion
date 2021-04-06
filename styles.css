@@ -1,8 +1,7 @@
 body{
     background-color: white;
-    margin: 0;
-    padding: 0;
     line-height: 0;
+    margin: 0;
 }
 
 .card{
@@ -23,17 +22,13 @@ body{
 }
 
 .thumbnail{
+    background: url('assets/ellipse-1.png');
     position: absolute;
-    display:center;
-    top: 324px;
-    left: 41px;
-    width: 42px;
-    height: 42px;
-    background: transparent url('assets/jamie.png') 0% 0% no-repeat padding-box;
-    box-shadow: 0px -2px 6px #00000029;
+    top: 313px;
+    left: 36px;
+    width: 56px;
+    height: 58px;
     opacity: 1;
-    margin-left: auto;
-    margin-right: auto;
 }
 /*
 img{
@@ -98,7 +93,7 @@ img{
     opacity: 1;
 }
 
-.rich-places{
+.tittle{
     position: absolute;
     top: 379px;
     left: 41px;
@@ -109,9 +104,10 @@ img{
     letter-spacing: 0px;
     color: #666666;
     opacity: 1;
+    margin: 0;
 }
 
-.sed-ut{
+.caption{
     position: absolute;
     top: 424px;
     left: 41px;
@@ -122,11 +118,13 @@ img{
     letter-spacing: 0px;
     color: #666666;
     opacity: 1;
+    margin: 0;
 }
 
 .first{
     position: absolute;
-    height: 292px;
+    height: 562px;
+    width: 770px; 
 }
 
 .read-more{
@@ -141,6 +139,7 @@ img{
     color: #5A90BC;
     opacity: 1;
     text-decoration:none;
+    margin: 0;
 }
 
 .block{
@@ -154,15 +153,244 @@ img{
     opacity: 1;
     margin: 0;
 }
+
 .com{
     position: absolute;
     top: 616px;
     left: 41px;
-    width: 108px;
+    width: 110px;
     height: 14px;
     text-align: left;
     font: normal normal normal 11px/14px Montserrat;
     letter-spacing: 2.2px;
     color: #604731;
     opacity: 1;
+}
+
+.thumbnail-2{
+    position: absolute;
+    top: 645px;
+    left: 35px;
+    width: 53px;
+    height: 56px;
+    background: transparent url('assets/import.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.name-2{
+    position: absolute;
+    top: 659px;
+    left: 94px;
+    width: 80px;
+    height: 17px;
+    font: normal normal normal 12px/17px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.work-2{
+    position: absolute;
+    top: 679px;
+    left: 94px;
+    width: 90px;
+    height: 17px;
+    font: normal normal normal 12px/17px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.reply-2{
+    position: absolute;
+    top: 672px;
+    left: 727px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+
+.on-the{
+    position: absolute;
+    top: 711px;
+    left: 93px;
+    width: 658px;
+    height: 70px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    margin: 0;
+}
+
+.thumbnail-s{
+    position: absolute;
+    top: 783px;
+    left: 87px;
+    width: 53px;
+    height: 56px;
+    background: transparent url('assets/ellipse-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.name-s{
+    position: absolute;
+    top: 799px;
+    left: 146px;
+    width: 90px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 12px/17px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.work-s{
+    position: absolute;
+    top: 819px;
+    left: 146px;
+    width: 79px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 12px/17px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+.reply-s{    
+    position: absolute;
+    top: 812px;
+    left: 727px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+
+}
+.comment-s{
+    position: absolute;
+    top: 851px;
+    left: 145px;
+    width: 606px;
+    height: 70px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    margin: 0;
+}
+
+.thumbnail-3{
+    position: absolute;
+    top: 925px;
+    left: 35px;
+    width: 53px;
+    height: 55px;
+    background: transparent url('assets/mitchel.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.name-3{
+    position: absolute;
+    top: 939px;
+    left: 94px;
+    width: 87px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 12px/17px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.work-3{
+    position: absolute;
+    top: 959px;
+    left: 94px;
+    width: 62px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 12px/17px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.comment-3{
+    position: absolute;
+    top: 991px;
+    left: 93px;
+    width: 658px;
+    height: 70px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    margin: 0;
+}
+
+.reply-3{
+    position: absolute;
+    top: 952px;
+    left: 727px;
+    width: 24px;
+    height: 24px;
+    background: transparent url('img/ic_reply_black_24px.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.new-com{
+    position: absolute;
+    top: 1122px;
+    left: 41px;
+    width: 53px;
+    height: 55px;
+    background: transparent url('assets/ellipse-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.path-2{
+    position: absolute;
+    top: 1130px;
+    left: 727px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+
+footer{
+    position: absolute;
+    top: 1122px;
+    left: 41px;
+    width: 42px;
+    height: 42px;
+    margin: 0;
+}
+
+.foot-com{
+    position: absolute;
+    top: 1142px;
+    left: 113px;
+    width: 658px;
+    height: 25px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.hr{
+    position: absolute;
+    height: 1px;
+    top: 1168px;
+    width: 583px;
+    line-height: 13%;
+    left: 113px;
+    background-color: grey;
+
 }
